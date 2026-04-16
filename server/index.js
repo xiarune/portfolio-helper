@@ -27,7 +27,7 @@ app.post("/api/generate", async (req, res) => {
       headers: {
         "Content-Type": "application/json",
         "Authorization": `Bearer ${OPENROUTER_API_KEY}`,
-        "HTTP-Referer": "http://localhost:3001",
+        "HTTP-Referer": "https://portfolio-helper.onrender.com",
         "X-Title": "Portfolio Helper",
       },
       body: JSON.stringify({
